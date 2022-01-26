@@ -14,7 +14,6 @@ public class Factorial_Recursive {
 
 		return n * factorial(n - 1);
 	}
-
 }
 
 // Time Complexity = O(n)
