@@ -11,10 +11,12 @@ public class CountDigits_Iterative {
 	private static int countDigit(int i) {
 		int count = 0;
 
-		while (i != 0) {
+		while (i > 0) {
 			i = i / 10;
-			++count;
+			count++;
 		}
 		return count;
 	}
 }
+
+// Time Complexity = O(n)
