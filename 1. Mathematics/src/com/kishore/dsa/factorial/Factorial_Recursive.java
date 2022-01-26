@@ -1,7 +1,6 @@
 package com.kishore.dsa.factorial;
 
 public class Factorial_Recursive {
-
 	public static void main(String[] args) {
 		int fact = factorial(5);
 		System.out.println(fact);
