@@ -4,13 +4,11 @@ package com.kishore.dsa.palindrome;
  * 
  * Vomiting Balance and Getting only Last Digit = n % 10;
  * 	eg.) n = 176
- * 		 	 176 % 10 => 6 (We getting only 6 
- * 							 ie. Only Last Digit)
+ * 		 176 % 10 => 6 (We getting only 6 ie. Only Last Digit)
  * 
  * Vomiting Last Digit and Getting only Balance = n / 10;
  *  eg.) n = 176
- * 		 	 176 / 10 => 17.6 (We getting 17.6 if we take only 17 as int without decimal .6 
- * 								ie. Without Last Digit)
+ * 		 176 / 10 => 17.6 (We getting 17.6 if we take only 17 as int without decimal .6 ie. Without Last Digit)
  *
  ***/
 
