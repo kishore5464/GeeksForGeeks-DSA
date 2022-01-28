@@ -13,7 +13,7 @@ package com.kishore.dsa.factorial.trailingZeros;
  * 2. Then we finding trailing zeros in the Factorial
  * 
  */
-public class TrailingZeros {
+public class TrailingZeros_Normal {
 
 	public static void main(String[] args) {
 		int trailingZerosCount = trailingFactorial(10);
@@ -38,3 +38,5 @@ public class TrailingZeros {
 	}
 
 }
+
+//Time Complexity = O(n)
