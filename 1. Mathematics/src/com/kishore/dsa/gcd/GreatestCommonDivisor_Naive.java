@@ -31,3 +31,5 @@ public class GreatestCommonDivisor_Naive {
 		return gcd;
 	}
 }
+
+//Time Complexity = O(min(x,y))
