@@ -33,3 +33,6 @@ public class LeastCommonMultiple_Naive {
 		return leastNumber;
 	}
 }
+
+// Time Complexity = O(x*y)
+// Time Complexity (more precise) = O(x*y-max(x,y))
