@@ -1,7 +1,7 @@
 # GFG-DSA
 GFG - Data Structures and Algorithms (Self Placed Course)
 
-1. Mathematics:_
+1. Mathematics:\
    a) Count Digits,
    b) Palindrome,
    c) Factorial,
