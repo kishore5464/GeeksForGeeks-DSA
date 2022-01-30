@@ -13,4 +13,4 @@ GFG - Data Structures and Algorithms (Self Placed Course)
    i) All Divisors of a Number,\
    j) Sieve of Eratosthenes,\
    k) Computing Power,\
-   l) Iterative Power.\
+   l) Iterative Power.
