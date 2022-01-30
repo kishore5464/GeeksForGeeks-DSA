@@ -12,7 +12,7 @@ package com.kishore.dsa.factorial.trailingZeros;
  * 
  * Trailing Zeros Count -> [n/5], [n/25], [n/125], [n/625]....
  */
-public class TrailingZeros_Efficient {
+public class TrailingZeros_Optimized {
 
 	public static void main(String[] args) {
 		int trailingZerosCount = trailingFactorialEfficient(254);
