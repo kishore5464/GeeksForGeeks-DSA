@@ -25,13 +25,17 @@ public class CheckPrime_More_Optimized {
 
 	public static void main(String[] args) {
 
-		boolean prime = primeOptimized(65);
+		boolean prime = primeOptimized(49);
 		System.out.println(prime);
 	}
 
 	private static boolean primeOptimized(int x) {
 
 		if (x == 1) {
+			return false;
+		}
+		
+		if (x == 2 || x == 3) {
 			return true;
 		}
 
@@ -46,11 +50,11 @@ public class CheckPrime_More_Optimized {
 		 */
 		for (int i = 5; i < x; i = i + 6) {
 			if (x % i == 0 || x % (i + 2) == 0) {
-				return false;
+				return true;
 			}
 		}
 
-		return true;
+		return false;
 	}
 }
 
